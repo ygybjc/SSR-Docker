@@ -1,6 +1,6 @@
 FROM alpine
 
-ARG SSR_URL=https://github.com/winterssy/shadowsocksr/archive/manyuser.zip
+ARG SSR_URL=https://github.com/ygybjc/SSR-Docker/raw/master/manyuser.zip
 
 RUN set -ex && \
     apk add --no-cache libsodium py-pip && \
